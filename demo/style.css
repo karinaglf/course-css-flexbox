@@ -103,7 +103,7 @@ main {
 	color: var(--color3);
 }
 .main-section {
-	padding-block: min(10rem, 10vw);
+	padding: 10rem 0;
 }
 .cta-row {
 	display: flex;
@@ -166,6 +166,9 @@ footer {
 	}
 	nav li:first-child {
 		margin: 0 auto;
+	}
+	.main-section {
+		padding: 4rem;
 	}
 	.cta-row img {
 		max-width: 60vw;
