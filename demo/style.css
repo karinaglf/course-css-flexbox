@@ -89,7 +89,7 @@ nav a:hover {
 main {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding-block: min(10rem, 10vh);
+	padding: 10rem 0;
 }
 .btn-link {
 	background-color: var(--color1);
@@ -161,6 +161,9 @@ footer {
 
 /* Mobile */
 @media (max-width: 600px) {
+	main {
+		padding: 1rem 0;
+	}
 	nav li:not(:first-child) {
 		display: none;
 	}
@@ -168,7 +171,7 @@ footer {
 		margin: 0 auto;
 	}
 	.main-section {
-		padding: 4rem;
+		padding: 4rem 0;
 	}
 	.cta-row img {
 		max-width: 60vw;
