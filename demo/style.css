@@ -89,7 +89,7 @@ nav a:hover {
 main {
 	max-width: 1000px;
 	margin: 0 auto;
-	padding: 10rem 0;
+	/* padding: 10rem 0; */
 }
 .btn-link {
 	background-color: var(--color1);
@@ -103,7 +103,10 @@ main {
 	color: var(--color3);
 }
 .main-section {
-	padding: 10rem 0;
+	min-height: 85vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 .cta-row {
 	display: flex;
@@ -161,9 +164,6 @@ footer {
 
 /* Mobile */
 @media (max-width: 600px) {
-	main {
-		padding: 1rem 0;
-	}
 	nav li:not(:first-child) {
 		display: none;
 	}
