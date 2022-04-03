@@ -103,7 +103,7 @@ main {
 	color: var(--color3);
 }
 .main-section {
-	padding-block: min(12rem, 10vh);
+	padding-block: min(10rem, 10vw);
 }
 .cta-row {
 	display: flex;
