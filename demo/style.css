@@ -105,25 +105,23 @@ main {
 .main-section {
 	padding-block: min(12rem, 10vh);
 }
-.hero,
-.pet-stories {
+.cta-row {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	gap: 2rem;
 }
-.hero > *,
-.pet-stories > * {
+.cta-row > * {
 	flex-shrink: 1;
 	flex-grow: 1;
 	flex-basis: 0;
 }
-.hero img,
-.pet-stories img {
-	max-width: 50%;
+.cta-row img {
+	width: 420px;
 }
-.info {
+.cta-info {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -163,22 +161,20 @@ footer {
 
 /* Mobile */
 @media (max-width: 600px) {
-	nav ul {
-		gap: 0;
-	}
-	nav ul li {
-		flex-grow: 1;
-		flex-basis: 42%;
-		margin-bottom: 10px;
+	nav li:not(:first-child) {
+		display: none;
 	}
 	nav li:first-child {
-		flex-basis: 100%;
+		margin: 0 auto;
 	}
-	.info {
+	.cta-row img {
+		max-width: 60vw;
+	}
+	.cta-info {
         flex-basis: 100%;
 		align-items: center;
 		text-align: center;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
 	}
 	article {
 		flex-basis: 100%;
