@@ -87,7 +87,7 @@ nav a:hover {
 
 /* Main */
 main {
-	max-width: 1000px;
+	max-width: 1150px;
 	margin: 0 auto;
 	/* padding: 10rem 0; */
 }
@@ -134,25 +134,25 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 3rem;
+	gap: 3.75rem;
 }
-.steps {
+.steps-container {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
 	gap: 2.5rem;
 }
-article {
+.steps {
 	flex-grow: 1;
 	flex-shrink: 1;
 	flex-basis: 0;
 	text-align: center;
 }
-article img {
+.steps img {
 	max-height: 180px;
 	margin-bottom: 20px;
 }
-article h3 {
+.steps h3 {
 	color: var(--color1);
 }
 
@@ -177,12 +177,12 @@ footer {
 		max-width: 60vw;
 	}
 	.cta-info {
-        flex-basis: 100%;
+		flex-basis: 100%;
 		align-items: center;
 		text-align: center;
-        margin-bottom: 40px;
+		margin-bottom: 40px;
 	}
-	article {
+	.steps {
 		flex-basis: 100%;
 	}
 }

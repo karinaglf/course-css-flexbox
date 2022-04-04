@@ -1,19 +1,20 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 10px;
+	padding: 0;
 }
 body {
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	height: 80vh;
 	display: flex;
+	margin: 0;
+	padding: 2rem;
 	flex-direction: column;
 	justify-content: center;
 	gap: 1rem;
 }
 /* Background Styles */
 .container {
-	min-height: 400px;
+	min-height: 650px;
 	background: lightgray;
 	padding: 2rem;
 }
@@ -26,20 +27,22 @@ body {
 	min-width: 20%;
 }
 .item-1 {
-	min-height: 100px;
+	min-height: 50px;
 	background-color: teal;
 }
 .item-2 {
-	min-height: 200px;
+	min-height: 100px;
 	background-color: steelblue;
 }
 .item-3 {
-	min-height: 300px;
+	min-height: 200px;
 	background-color: sandybrown;
 }
 /* Flexbox Properties */
 .container {
 	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 /* Flexbox Items */
 .items {
